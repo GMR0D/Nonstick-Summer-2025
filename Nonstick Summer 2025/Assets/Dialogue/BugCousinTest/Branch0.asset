@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee689b52b074234399a9d86f8ee0df8, type: 3}
+  m_Name: Branch0
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Dialogue: Heya cousin, did you see I won the soccer tournament.
+    Portrait: {fileID: 0}
+  Charming_Expression:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Ha! Nice job cousin.
+    ChangeInRelationshipStatus: 4
+  Assertive_Expression:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Yeah? but I bet I could still beat you.
+    ChangeInRelationshipStatus: 2
+  Sappy_Expression:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: I miss playing soccer
+    ChangeInRelationshipStatus: 2
+  Charming_Observation:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Nice! I saw you scored the game winning goal.
+    ChangeInRelationshipStatus: 0
+  Assertive_Observation:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Yeah I also saw you scored an own goal.
+    ChangeInRelationshipStatus: -2
+  Sappy_Observation:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: You're growing up so fast
+    ChangeInRelationshipStatus: -2
+  Charming_Question:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Yeah, How many goals did you score?
+    ChangeInRelationshipStatus: 0
+  Assertive_Question:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: You know soccer is a team sport right?
+    ChangeInRelationshipStatus: 0
+  Sappy_Question:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: Are you going to go pro now and leave us all behind?
+    ChangeInRelationshipStatus: 0
+  Silent:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: 
+    ChangeInRelationshipStatus: 0
+  End: 0
