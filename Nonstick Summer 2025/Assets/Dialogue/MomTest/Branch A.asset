@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee689b52b074234399a9d86f8ee0df8, type: 3}
+  m_Name: Branch A
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Dialogue: Welcome home, honey.
+    Portrait: {fileID: 0}
+  - Dialogue: How was school?
+    Portrait: {fileID: 0}
+  - Dialogue: Don't forget, you're on your own tomorrow. I have a work conference
+      out of town.
+    Portrait: {fileID: 0}
+  - Dialogue: 'I can still call Grandma to come over until I get back. '
+    Portrait: {fileID: 0}
+  Charming_Expression:
+    BranchingDialogue: {fileID: 11400000, guid: c198d8ee7387d3d408107631f41a5878, type: 2}
+    PlayerDialogue: Aw, I love you almost as much as I love Grandpa!
+    ChangeInRelationshipStatus: 1
+  Assertive_Expression:
+    BranchingDialogue: {fileID: 11400000, guid: 313291c56fa36db4d951ee293b6679e2, type: 2}
+    PlayerDialogue: Oh, Grandma's still alive?
+    ChangeInRelationshipStatus: -1
+  Sappy_Expression:
+    BranchingDialogue: {fileID: 11400000, guid: e6f74adb7b4d680468405831e96dbabf, type: 2}
+    PlayerDialogue: But I don't want you to leave...
+    ChangeInRelationshipStatus: 1
+  Charming_Observation:
+    BranchingDialogue: {fileID: 11400000, guid: e6f74adb7b4d680468405831e96dbabf, type: 2}
+    PlayerDialogue: If you call Grandma, I'll just go back to school.
+    ChangeInRelationshipStatus: 0
+  Assertive_Observation:
+    BranchingDialogue: {fileID: 11400000, guid: 313291c56fa36db4d951ee293b6679e2, type: 2}
+    PlayerDialogue: I don't even LIKE Grandma.
+    ChangeInRelationshipStatus: -2
+  Sappy_Observation:
+    BranchingDialogue: {fileID: 11400000, guid: e6f74adb7b4d680468405831e96dbabf, type: 2}
+    PlayerDialogue: Sorry Mom, Gabe couldn't think of a good sappy observation.
+    ChangeInRelationshipStatus: 0
+  Charming_Question:
+    BranchingDialogue: {fileID: 11400000, guid: c198d8ee7387d3d408107631f41a5878, type: 2}
+    PlayerDialogue: Can you tell Grandma to pick up some food on the way over?
+    ChangeInRelationshipStatus: 0
+  Assertive_Question:
+    BranchingDialogue: {fileID: 11400000, guid: 313291c56fa36db4d951ee293b6679e2, type: 2}
+    PlayerDialogue: Do you think I'm a child?
+    ChangeInRelationshipStatus: -2
+  Sappy_Question:
+    BranchingDialogue: {fileID: 11400000, guid: e6f74adb7b4d680468405831e96dbabf, type: 2}
+    PlayerDialogue: You're going to be gone all day?
+    ChangeInRelationshipStatus: 0
+  Silent:
+    BranchingDialogue: {fileID: 0}
+    PlayerDialogue: ...
+    ChangeInRelationshipStatus: 0
+  End: 0

@@ -710,6 +710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6671598240073966612, guid: 50c4adb2f11155e4e8480e7c92ba4516, type: 3}
+      propertyPath: StartingDialogueBranch
+      value: 
+      objectReference: {fileID: 11400000, guid: a30f23876f7fcfe4180258c3133ef9fa, type: 2}
     - target: {fileID: 7010602745331249561, guid: 50c4adb2f11155e4e8480e7c92ba4516, type: 3}
       propertyPath: m_Name
       value: NPC Example
